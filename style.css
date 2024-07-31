@@ -1,0 +1,95 @@
+*{
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(197, 100%, 50%, 0.418);
+}
+header{
+    display: flex;
+    align-items: center;
+}
+h1{
+    margin-top: 100px;
+    font-size: 3.5rem;
+    
+}
+
+.input-box{
+    font-size: 1.5rem;
+    width: 50vw;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    
+}
+
+button{
+    font-size: 1.5rem;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+button:hover{
+   background-color: rgb(153, 168, 168);
+   border: 2px solid blue;
+}
+
+.input-box:hover{
+    background-color: rgb(153, 168, 168);
+   border: 2px solid blue;
+}
+
+
+
+.weather-image{
+    
+    width: 60;
+}
+
+.weather-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.weather-body .temperature{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.weather-body .temperature sup{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.weather-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.weather-details .humidity{
+    padding: 10px;
+
+}
+.weather-details .windspeed{
+    padding: 10px;
+}
+
+
